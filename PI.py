@@ -9,5 +9,6 @@ def x():
 def y():
     return math.sin(4)
 
-def f():
-    print("Вычисленное решение:", x()+y())
+def f(x, y):
+    print("Вычисленное решение:", x+y)
+f(x(), y())
